@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        .soltd {
+            width: 80%;
+            background-color: blueviolet;
+        }
+        .sagtd {
+            width: 20%;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn01">Do It</button>
+    <table>
+        <tr>
+            <td class="soltd">I give my word</td>
+            <td class="sagtd">the springs will come back</td>
+        </tr>
+    </table>
+    <p>Lorem Ipsum</p>
+    <script src="jquery/jquery3.6.0.js"></script>
+     <script>
+       $(document).ready(function() {
+        $('button#btn01').click(function(){
+            $("td.soltd").empty;
+
+    
+            $(".sagtd").empty;
+
+        })
+    
+    
+});
+      </script>
+</body>
+</html>

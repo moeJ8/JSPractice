@@ -1,0 +1,30 @@
+body {
+    background-color:black;
+    font-family: arial;
+    color: white;
+}
+h1{
+    color:gray;
+    font-family: verdana;
+}
+
+/*body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}*/
+.maindiv{
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 100px;
+    border-radius: 25px;
+    text-align: center;
+    
+}
+footer{
+    color:gray;
+    font-family: verdana;
+}
+
+
