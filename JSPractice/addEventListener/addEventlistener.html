@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Event Listener</title>
+    </head>
+    <body>
+        <div id="myDiv">
+            <p id="myP">Hello I am Moe</p>
+        </div>
+        <div id="myDiv2">
+            <p id="myP2">Hello my name is Ray</p>
+        </div>
+
+        <script>
+            var myP = document.getElementById("myp");
+            var myDiv = document.getElementById("myDiv");
+            var myP2 = document.getElementById("myP2");
+            var myDiv2 = document.getElementById("myDiv2");
+            myP.addEventListener("click", function(){ myDiv.style.background = "blue" });
+            //myP.onclick = function(){myDiv.style.background = "blue"};
+            myP.addEventListener("click", changeText);
+            function changeText(){
+                myP2.textContent = "Hello my name is Aziz"
+            };
+        </script>
+    </body>
+</html>

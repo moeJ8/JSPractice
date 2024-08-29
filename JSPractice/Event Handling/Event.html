@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Click Event Handling</title>
+    </head>
+    <body>
+        <button id="myButton">Click Me</button>
+        <p id="output"></p>
+        <script>
+            const button = document.getElementById("myButton");
+            const output = document.getElementById("output");
+            button.onclick = function(){
+                output.textContent = "Button Clicked!";
+            };
+        </script>
+    </body>
+</html>
